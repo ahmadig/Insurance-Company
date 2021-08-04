@@ -6,14 +6,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-/**
- * 
- */
-
-/**
- * @author omarr
- *
- */
 public class SaveToDB {
 	
 	private static Connection conn = null;
