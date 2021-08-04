@@ -17,14 +17,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-/**
- * 
- */
-
-/**
- * @author omarr
- *
- */
 public class HealthInsController extends ObserverClass {
 	
 	
