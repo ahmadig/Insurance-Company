@@ -27,7 +27,7 @@ public static Connection connectToDB() throws InstantiationException, IllegalAcc
 	    {
 	    	 Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 		        System.out.println("Driver definition succeed");
-		      	 conn = DriverManager.getConnection("jdbc:mysql://localhost/task?serverTimezone=IST","root","combat@123");
+		      	 conn = DriverManager.getConnection("jdbc:mysql://localhost/task?serverTimezone=IST","????","????");
 	        System.out.println("SQL connection succeed");
 	        return conn;
 	        
