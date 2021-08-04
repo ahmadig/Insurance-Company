@@ -4,14 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 
-/**
- * 
- */
-
-/**
- * @author omarr
- *
- */
 public class Logger {
 	private String User;
 
