@@ -9,15 +9,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-
-/**
- * 
- */
-
-/**
- * @author omarr
- *
- */
 public class MainController extends ObserverClass{
 	
 	Stage homePage;
