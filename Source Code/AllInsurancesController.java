@@ -22,14 +22,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-/**
- * 
- */
 
-/**
- * @author omarr
- *
- */
 public class AllInsurancesController extends ObserverClass{
 	
 	private ObservableList<Person> data;
