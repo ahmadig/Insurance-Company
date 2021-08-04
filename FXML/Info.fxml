@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AllInsurancesController">
+   <children>
+      <Text layoutX="240.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insurance Company" />
+      <Text layoutX="244.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="view all Purchases" />
+      <Button fx:id="btnBack" layoutX="270.0" layoutY="356.0" mnemonicParsing="false" onAction="#backButton" prefHeight="32.0" prefWidth="72.0" text="Back" />
+      <TableView fx:id="tblOrders" layoutX="140.0" layoutY="126.0" prefHeight="200.0" prefWidth="327.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="75.0" text="name" />
+          <TableColumn fx:id="family" prefWidth="75.0" text="family" />
+            <TableColumn fx:id="date" prefWidth="75.0" text="date" />
+            <TableColumn fx:id="remarks" prefWidth="75.0" text="remarks" />
+        </columns>
+      </TableView>
+      <Text fx:id="info" layoutX="398.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</Pane>
